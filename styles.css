@@ -82,6 +82,12 @@ html {
   margin-bottom: 70px;
 }
 
+.intro-features {
+  display: grid;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
 @media screen and (min-width: 580px) {
   .intro-features {
     grid-template-columns: 1fr 1fr;
@@ -278,8 +284,3 @@ html {
   }
 }
 
-.intro-features {
-  display: grid;
-  column-gap: 16px;
-  row-gap: 16px;
-}
